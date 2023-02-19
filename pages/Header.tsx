@@ -62,7 +62,7 @@ export default function Header() {
                       href="/"
                       className="font-medium text-gray-900 md:mb-0 "
                     >
-                      <span className="ml-3  text-xl text-white">Rent On</span>
+                      <span className="ml-3  text-2xl	 text-white">Rent On</span>
                     </Link>
                   </div>
 

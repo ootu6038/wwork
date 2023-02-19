@@ -13,6 +13,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Header from "./Header";
 import Footer from "./Footer";
 import News from "./News";
+import Deal from "./deal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,8 @@ export default function Home() {
             <div className="container flex mx-auto flex-col md:flex-row items-center px-5 py-20">
               <div className="md:w-1/2 flex-grow lg:pr-24 md:pr-16 text-center mb-16 md:text-left">
                 <h1 className="sm:text-6xl text-3xl mb-4 font-medium text-gray-900">
-                  <p className="mt-8 text-lg">キャノピーのレンタル</p>
+                  <p className="mt-8 text-2xl">キャノピーの新レンタルサービス</p>
+                  <p className="mt-8 text-sm text-gray-500">世田谷区、品川区、大田区、目黒区、港区、中央区、千代田区、江東区、川崎市</p>
                   <br />
                   月額40,000円のサブスク
                   <br />
@@ -146,6 +148,74 @@ export default function Home() {
             </div>
           </section>
 
+          <div className="text-gray-700 border-t border-gray-200"></div>
+
+          <section className="bg-white border-b py-8">
+            <div className="container max-w-5xl mx-auto m-8 ">
+              <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+                Pro Shipperとしての選択肢
+              </h2>
+              <div className="w-full mb-4">
+                <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+              </div>
+              <div className="flex flex-wrap bg-[#7dd3fc]">
+                <div className="w-5/6 sm:w-1/2 p-6">
+                  <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
+                    自転車からバイクでデリバリーに挑戦したい方！
+                  </h3>
+                  <p className="text-gray-600 mb-8">
+                    週末だけ借りるなど、気楽にレンタルできます。また、自転車からバイクでデリバリーを試してみたい方にはオススメです。
+                    <br />
+                    <br />
+                    {/* Images from:
+                    <a
+                      className="text-pink-500 underline"
+                      href="https://undraw.co/"
+                    >
+                      undraw.co
+                    </a> */}
+                  </p>
+                </div>
+                <div className="w-full sm:w-1/2 p-6">
+                  <Image
+                    src={Img01}
+                    className="w-full h-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="flex flex-wrap flex-col-reverse sm:flex-row bg-[#93c5fd]">
+                <div className="w-full sm:w-1/2 p-6 mt-6">
+                  <Image
+                    src={Img01}
+                    className=" h-full object-cover w-5/6 sm:h-64 mx-auto"
+                    alt=""
+                  />
+                </div>
+                <div className="w-full sm:w-1/2 p-6 mt-6">
+                  <div className="align-middle">
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
+                      4万ポッキリ。気にいれば6カ月以上レンタルされた方に20万円で売却も可能
+                    </h3>
+                    <p className="text-gray-600 mb-8">
+                      1カ月4万円以上かかりません。保険代も弊社が負担しております。ガソリン代のみお支払いください。
+                      6カ月以上レンタルされた方には、20万円で売却できます!乗ってみて気に入れば愛車にするのも選択肢です!
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <Deal/>
+        <Footer />
+      </main>
+    </>
+  );
+}
+
           {/* <section className="container mx-auto text-center py-6 mb-12">
             <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
               キャノピーのサブスク
@@ -220,68 +290,3 @@ export default function Home() {
               </g>
             </svg>
           </div> */}
-          <div className="text-gray-700 border-t border-gray-200"></div>
-          <section className="bg-white border-b py-8">
-            <div className="container max-w-5xl mx-auto m-8 ">
-              <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                Pro Shipperとしての選択肢
-              </h2>
-              <div className="w-full mb-4">
-                <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-              </div>
-              <div className="flex flex-wrap bg-[#7dd3fc]">
-                <div className="w-5/6 sm:w-1/2 p-6">
-                  <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                    自転車からバイクでデリバリーに挑戦したい方！
-                  </h3>
-                  <p className="text-gray-600 mb-8">
-                    週末だけ借りるなど、気楽にレンタルできます。また、自転車からバイクでデリバリーを試してみたい方にはオススメです。
-                    <br />
-                    <br />
-                    {/* Images from:
-                    <a
-                      className="text-pink-500 underline"
-                      href="https://undraw.co/"
-                    >
-                      undraw.co
-                    </a> */}
-                  </p>
-                </div>
-                <div className="w-full sm:w-1/2 p-6">
-                  <Image
-                    src={Img01}
-                    className="w-full h-full object-cover"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="flex flex-wrap flex-col-reverse sm:flex-row bg-[#93c5fd]">
-                <div className="w-full sm:w-1/2 p-6 mt-6">
-                  <Image
-                    src={Img01}
-                    className=" h-full object-cover w-5/6 sm:h-64 mx-auto"
-                    alt=""
-                  />
-                </div>
-                <div className="w-full sm:w-1/2 p-6 mt-6">
-                  <div className="align-middle">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                      4万ポッキリ。気にいれば6カ月以上レンタルされた方に20万円で売却も可能
-                    </h3>
-                    <p className="text-gray-600 mb-8">
-                      1カ月4万円以上かかりません。保険代も弊社が負担しております。ガソリン代のみお支払いください。
-                      6カ月以上レンタルされた方には、20万円で売却できます!乗ってみて気に入れば愛車にするのも選択肢です!
-                      <br />
-                      <br />
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <Footer />
-      </main>
-    </>
-  );
-}
