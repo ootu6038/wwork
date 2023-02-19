@@ -13,7 +13,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Header from "./Header";
 import Footer from "./Footer";
 import News from "./News";
-import Deal from "./deal";
+import Deal from "./Deal";
 
 const inter = Inter({ subsets: ["latin"] });
 
