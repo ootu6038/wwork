@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+友人が前所属していた会社から余ったバイクを安価で譲り受けれるとの話で、副業感覚で企業したいとのことで、landing pageを作成したが、バイクを仕入れるの話が頓挫してしまい、中途半端に作成したサイトです。
+骨組みだけつくった感じで、支払い機能や細かい所を完成できていません
+
+
+his is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 

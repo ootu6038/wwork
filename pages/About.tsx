@@ -40,7 +40,7 @@ export default function About() {
               <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
                 代表取締役
               </h3>
-              <div className="text-gray-500 dark:text-gray-500">高原 秀喜</div>
+              <div className="text-gray-500 dark:text-gray-500">xxxx</div>
               {/* <div className="text-gray-500 dark:text-gray-400">ccccc</div> */}
               <div className="flex space-x-3 pt-6">
                 <svg
@@ -89,7 +89,7 @@ export default function About() {
             <div className="font-extrabold w-1/6 sm:w-1/4 underline decoration-solid decoration-4 decoration-[#e11d48]">事業内容</div>
             <div className="w-full sm:w-1/4">レンタル・リース事業</div>
             <div className="font-extrabold w-1/6 sm:w-1/4 underline decoration-solid decoration-4 decoration-[#e11d48]">所在地</div>
-            <div className="w-full sm:w-1/4">〒122-009 東京都品川区東大井2-13-4 ラフィネ306</div>
+            <div className="w-full sm:w-1/4">〒122-009 東京都品川区東大井2-13</div>
             <div className="font-extrabold w-1/6 sm:w-1/4 underline decoration-solid decoration-4 decoration-[#e11d48]">電話番号</div>
             <div className="w-full sm:w-1/4">090-8888-8888</div>
             <div className="font-extrabold w-1/6 sm:w-1/4 underline decoration-solid decoration-4 decoration-[#e11d48]">営業時間</div>
